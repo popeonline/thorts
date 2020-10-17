@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-https://thortful-fbe4a.web.app/space-mail
+https://thortful-fbe4a.web.app
 
 ## Running locally
 
