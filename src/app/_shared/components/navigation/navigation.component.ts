@@ -7,13 +7,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-  
+
   muted: boolean = false;
 
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    console.log(this.router.url);
+    let audio = document.getElementById('audio-element') as HTMLMediaElement
+    audio.muted = false;
   }
 
   muteAudio(): void {

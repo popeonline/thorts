@@ -6,6 +6,11 @@ A project to showcase some of my skills... The idea was to create a small Star W
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 
+
+## Demo
+
+https://thortful-fbe4a.web.app/space-mail
+
 ## Running locally
 
 Download all files from this repository using your preferred Git Client.
@@ -15,4 +20,6 @@ Open a new terminal. `Terminal` -> `New Terminal`
 Run `npm install`.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
 
