@@ -1,0 +1,46 @@
+<app-navigation></app-navigation>
+
+<div class="page-container">
+
+    <div>
+
+        <div class="card-container" *ngIf="person">
+
+            <div class="card flexy">
+                <div class="content">
+                    <span class="name">{{ person.name | lowercase }} here!</span>
+                    <p>'have a safe and</p>
+                    <p class="happy-birthday"> happy birthday!'</p>
+                </div>
+                <img src="assets/images/people/{{ person.name | imageName }}.png" alt="{{ person.name }}">
+            </div>
+
+            <div class="inner-card flexy">
+                <p contenteditable="true" style="outline: 0;">Add your message here.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="character-container">
+
+        <p>Choose a character:</p>
+
+        <div class="mini-character" *ngFor="let item of people; let i=index">
+
+            <div routerLink="/space-mail/{{i}}">
+
+                <img src="assets/images/people/{{ item.name | imageName }}.png" alt="{{ item.name }}">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="button" (click)="addCardToBasket()">add to basket</div>
+
+</div>
+
+<app-stars></app-stars>

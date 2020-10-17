@@ -1,0 +1,91 @@
+@import "../../../../assets/styles/colors.scss";
+@import "../../../../assets/styles/fonts.scss";
+
+.navigation {
+    font-family: 'Star Jedi';
+    font-weight: normal;
+    font-style: normal;
+      z-index: 99;
+      color: $sw-yellow;
+      position: relative;
+      .skip {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        outline: 0;
+    }
+    .mute {
+        cursor: pointer;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    a {
+        color: $sw-yellow;
+        text-decoration: none;
+    }
+
+    .is-active {
+      text-decoration: underline;
+    }
+    
+  }
+
+
+
+
+
+//Color Variables
+$color1: #E84545; //Red
+$color2: #53354A; //Plum
+$color3: #903749; //Maroon
+
+.navBar {
+  background-color: #000;
+  position: fixed;
+  min-width: 100%;
+  top: 0;
+}
+
+
+
+// Content Wrapper
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2% 0 0%;
+}
+
+// Full Navigation, including mobile menu
+nav {
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    
+    a {
+      color: $sw-yellow;
+      text-decoration: none;
+      transition: all .5s ease;
+
+      &:hover {color: yellow;}
+    }
+  }
+  
+  li  {
+    display: inline-block;
+  }
+  
+  #menu-toggle {display: none;}
+  
+  .label-toggle {display: none;}
+  
+  .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}

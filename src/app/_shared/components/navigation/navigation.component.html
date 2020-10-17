@@ -1,0 +1,45 @@
+<div class="navigation">
+
+	<nav class="navBar">
+
+		<nav class="wrapper">
+
+			<div class="logo"></div><!-- Logo -->
+
+			<input type="checkbox" id="menu-toggle" />
+
+			<label for="menu-toggle" class="label-toggle"></label>
+
+			<!-- <i class="fas fa-bars"></i> -->
+			<ul>
+
+				<li>
+
+					<div class="go-thortful" style="align-items: flex-start;">
+						<a href='http://www.thortful.com'><i class="fas fa-home"></i> Save your skins!</a>
+					</div>
+
+					<div class="show-audio">
+						<a class="mute" (click)="muteAudio()" *ngIf='!muted'><i class="fas fa-volume-mute"></i> mute
+						</a>
+						<a class="mute" (click)="unMuteAudio()" *ngIf="muted"><i class="fas fa-volume-up"></i> volume
+						</a>
+					</div>
+
+				</li>
+
+				<li>
+					<a routerLink="/space-mail" routerLinkActive="is-active">take me to your cards</a>
+				</li>
+
+				<!-- <li>
+					<a routerLink="/the-galaxy" routerLinkActive="is-active">to the galaxy! ¶</a>
+				</li> -->
+
+			</ul>
+
+		</nav>
+
+	</nav>
+
+</div>
