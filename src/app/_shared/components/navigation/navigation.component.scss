@@ -21,7 +21,6 @@
     }
     .play {
       cursor: pointer;
-      margin-top: -1px;
       margin-right: 8px;
       font-size: 10px;
     }
@@ -65,7 +64,6 @@ nav {
     a {
       color: $sw-yellow;
       text-decoration: none;
-      transition: all .5s ease;
       &:hover {color: yellow;}
     }
   }

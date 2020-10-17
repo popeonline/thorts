@@ -13,8 +13,7 @@ export class NavigationComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    let audio = document.getElementById('audio-element') as HTMLMediaElement
-    audio.muted = false;
+
   }
 
   muteAudio(): void {

@@ -14,7 +14,7 @@
 					</div>
 
 					<div class="show-audio">
-						<a class="play" (click)="muteAudio()" *ngIf='!muted'><i class="fas fa-play"></i></a>
+						<a class="play" (click)="unMuteAudio()"><i class="fas fa-play"></i></a>
 						<a class="mute" (click)="muteAudio()" *ngIf='!muted'><i class="fas fa-volume-mute"></i> mute
 						</a>
 						<a class="mute" (click)="unMuteAudio()" *ngIf="muted"><i class="fas fa-volume-up"></i> volume
