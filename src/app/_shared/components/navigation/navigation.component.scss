@@ -19,6 +19,12 @@
         margin-top: 5px;
         font-size: 12px;
     }
+    .play {
+      cursor: pointer;
+      margin-top: -1px;
+      margin-right: 8px;
+      font-size: 10px;
+    }
     a {
         color: $sw-yellow;
         text-decoration: none;
@@ -33,59 +39,36 @@
 
 
 
-
-//Color Variables
-$color1: #E84545; //Red
-$color2: #53354A; //Plum
-$color3: #903749; //Maroon
-
 .navBar {
   background-color: #000;
   position: fixed;
-  min-width: 100%;
+  width: 98%;
   top: 0;
+  padding: 0 30px 0 0%;
 }
 
 
-
-// Content Wrapper
-.wrapper {
-  margin: 0 auto;
-  padding: 0 2% 0 0%;
-}
-
-// Full Navigation, including mobile menu
 nav {
+
+  .text-align-right {
+    text-align: right;
+  }
 
   ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-	width: 100%;
-	margin: 0px;
+    width: 100%;
+    margin: 0px;
     padding: 0px;
     
     a {
       color: $sw-yellow;
       text-decoration: none;
       transition: all .5s ease;
-
       &:hover {color: yellow;}
     }
   }
   
-  li  {
-    display: inline-block;
-  }
-  
-  #menu-toggle {display: none;}
-  
-  .label-toggle {display: none;}
-  
-  .wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-  }
   
 }
