@@ -2,14 +2,8 @@
 
 ## About
 
-A project to showcase some of my skills... The idea was to create a small Star Wars inspired card generator. Would I have done a few things differently, yes.
+A quick project for an interview at thortful. The critera was to create a small Star Wars inspired card generator. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
-
-
-## Demo
-
-https://thortful-fbe4a.web.app
 
 ## Running locally
 
